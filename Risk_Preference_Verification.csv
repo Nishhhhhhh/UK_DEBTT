@@ -1,0 +1,4 @@
+Scenario,Simulation_Runs,Accounting_Passed,Result
+High Risk Aversion,10,True,PASS
+Low Risk Aversion,10,True,PASS
+Medium Risk Aversion,10,True,PASS

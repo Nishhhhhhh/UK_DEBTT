@@ -1,0 +1,6 @@
+Verification Test,Passed,Result
+Bond holdings reconciliation,True,PASS
+Government cash reconciliation,True,PASS
+Coupon income reconciliation,True,PASS
+Government debt reconciliation,True,PASS
+Non-negative agent balances,True,PASS
