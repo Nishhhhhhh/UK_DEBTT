@@ -22,12 +22,12 @@ Project/
 ├── series-230626.csv
 ├── BoE-Database_export.csv
 ├── API_GBR_DS2_en_csv_v2_448313.csv
-├── master_dataset(1).csv
-├── Risk_Preference_Experiment_Results(1).csv
+├── master_dataset.csv
+├── Risk_Preference_Experiment_Results.csv
 ├── Risk_Preference_Statistical_Summary.csv
 ├── Risk_Preference_Verification.csv
-├── Detailed_Accounting_Verification(1).csv
-└── Q_Learning_Training_Results(1).csv
+├── Detailed_Accounting_Verification.csv
+└── Q_Learning_Training_Results.csv
 ```
 
 The `(1)` suffix on some CSV files reflects the downloaded filenames. When the notebook regenerates these files, it uses the same names without that suffix.
