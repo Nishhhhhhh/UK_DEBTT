@@ -60,7 +60,7 @@ python -m pip install mesa==3.5.2 numpy pandas matplotlib seaborn scipy networkx
 ### Google Colab (recommended)
 
 1. Open [Google Colab](https://colab.research.google.com/).
-2. Upload `UK_Debt_RL_Project(1).ipynb` and open it.
+2. Upload `Uk_debt_artefact.ipynb` and open it.
 3. Use the Files panel to upload the three original CSV input datasets to the current runtime's working directory (normally `/content`). Keep their filenames exactly as listed above.
 4. Select **Runtime > Run all** to execute the notebook in order. If NetworkX is missing, run `!pip install networkx` before the imports cell.
 5. Allow the training and evaluation cells to finish. Training runs 300 episodes in total.
@@ -75,7 +75,7 @@ Install the dependencies listed in Section 3, open a terminal in the project dir
 jupyter notebook
 ```
 
-Open `UK_Debt_RL_Project(1).ipynb` and execute the cells from top to bottom. The original datasets must be accessible using the relative filenames in the notebook. If the dependencies are already installed in the active environment, the initial installation cell can be skipped.
+Open `Uk_debt_artefact.ipynb` and execute the cells from top to bottom. The original datasets must be accessible using the relative filenames in the notebook. If the dependencies are already installed in the active environment, the initial installation cell can be skipped.
 
 The supplied notebook and CSV results can also be inspected without retraining. The trained Q-tables are held in memory during execution; the CSV exports contain results rather than saved policy checkpoints. A fresh runtime requires training again to reproduce policy evaluation.
 
